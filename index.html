@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" direction="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SDCS Document Clearing Services</title>
+    <meta name="description" content="Sanabel Documents Clearing Services L.L.C is a Corporate consultancy and services firm established in Dubai. We provide complete Corporate service solutions and residential visa services under one roof. Acting as a bridge between the Government and the investor we assist the business community offering multiple corporate services that adhere to all the government legalities.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:title" content="SDCS Document Clearing Services" />
+    <meta property="og:description" content="Sanabel Documents Clearing Services L.L.C is a Corporate consultancy and services firm established in Dubai. We provide complete Corporate service solutions and residential visa services under one roof. " />
+    <meta property="og:image" content="./images/og-bg.png" />
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <link rel="preload" href="./images/logo-color.svg" as="image">
+    <link rel="preload" href="./images/logo.svg" as="image">
+    <link  rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link  rel="apple-touch-icon" size="57x57" href="./images/apple-icon-57x57.png">
+    <link  rel="apple-touch-icon" size="60x60" href="./images/apple-icon-60x60.png">
+    <link  rel="apple-touch-icon" size="72x72" href="./images/apple-icon-60x60.png">
+    <link  rel="apple-touch-icon" size="76x76" href="./images/apple-icon-76x76.png">
+    <link  rel="apple-touch-icon" size="114x114" href="./images/apple-icon-114x114.png">
+    <link  rel="apple-touch-icon" size="120x120" href="./images/apple-icon-120x120.png">
+    <link  rel="apple-touch-icon" size="144x144" href="./images/apple-icon-144x144.png">
+    <link  rel="apple-touch-icon" size="152x152" href="./images/apple-icon-152x152.png">
+    <link  rel="apple-touch-icon" size="180x180" href="./images/apple-icon-180x180.png">
+    <link  rel="icon" type="image/png" size="192x192" href="./images/android-icon-192x192.png">
+    <link  rel="icon" type="image/png" size="32x32" href="./images/favicon-32x32.png">
+    <link  rel="icon" type="image/png" size="96x96" href="./images/favicon-96x96.png">  
+    <link  rel="icon" type="image/png" size="16x16" href="./images/favicon-16x16.png">
+    <link  rel="manifest" href="./images/manifest.json">    <style>
+        .loader_ {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .loader_:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            transition: all 1s cubic-bezier(0.5, 1, 0.89, 1) 0.2s;
+            transform-origin: top;
+        }
+    
+        .loader_ .logo_loader {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 180px;
+            height: auto;
+            transform-origin: center;
+            transition: all 0.4s ease;
+        }
+    
+        .loader_ .logo_loader img {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+    
+        .loader-3 {
+            display: block;
+            height: 32px;
+            width: 32px;
+        }
+    
+        .loader-3 span {
+            display: block;
+            position: relative;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            height: 32px;
+            width: 32px;
+        }
+    
+        .loader-3 span::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            height: 32px;
+            width: 32px;
+            border: 3px solid #48A9A6;
+            border-bottom: 3px solid transparent;
+            border-radius: 50%;
+            -webkit-animation: loader-3-1 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+            animation: loader-3-1 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+        }
+    
+        @-webkit-keyframes loader-3-1 {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+    
+            40% {
+                -webkit-transform: rotate(180deg);
+            }
+    
+            60% {
+                -webkit-transform: rotate(180deg);
+            }
+    
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    
+        @keyframes loader-3-1 {
+            0% {
+                transform: rotate(0deg);
+            }
+    
+            40% {
+                transform: rotate(180deg);
+            }
+    
+            60% {
+                transform: rotate(180deg);
+            }
+    
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    
+        .loader-3 span::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 6px;
+            height: 6px;
+            background: #66BA85;
+            border-radius: 50%;
+            -webkit-animation: loader-3-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+            animation: loader-3-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+        }
+    
+        @-webkit-keyframes loader-3-2 {
+            0% {
+                -webkit-transform: translate3d(0, -32px, 0) scale(0, 2);
+                opacity: 0;
+            }
+    
+            50% {
+                -webkit-transform: translate3d(0, 0, 0) scale(1.25, 1.25);
+                opacity: 1;
+            }
+    
+            100% {
+                -webkit-transform: translate3d(0, 8px, 0) scale(0, 0);
+                opacity: 0;
+            }
+        }
+    
+        @keyframes loader-3-2 {
+            0% {
+                transform: translate3d(0, -32px, 0) scale(0, 2);
+                opacity: 0;
+            }
+    
+            50% {
+                transform: translate3d(0, 0, 0) scale(1.25, 1.25);
+                opacity: 1;
+            }
+    
+            100% {
+                transform: translate3d(0, 8px, 0) scale(0, 0);
+                opacity: 0;
+            }
+        }
+    
+        .dom_loded .loader_:before {
+            transform: scaleY(0);
+        }
+    
+        .dom_loded .loader_ .logo_loader {
+            transform: scale(0);
+        }
+    </style>    <script type="module" crossorigin src="/assets/index.9a13049e.js"></script>
+    <link rel="stylesheet" href="/assets/index.94a2eca5.css">
+  </head>
+  <body class="">
+
+    <div class="loader_" id="domloader">
+        <div class="logo_loader">
+            <img src="./images/logo-color.svg" alt="SDCS"/>
+            <div class="loader-3 center"><span></span></div>
+        </div>
+    </div>    <header>
+        <div class="header_container">
+            <div class="nav_logo">
+                <a href="/" class="nav_logo_link">
+                    <img src="./images/logo.svg" alt="SDCS" />
+                </a>
+            </div>
+    
+            <nav class="navbar_">
+                <ul class="nav_list">
+                    <li>
+                        <a href="mailto:info@sdcs.com" class="btn_trans">
+                            <i><img src="./images/mail.svg"/></i>
+                            <span>info@sdcs.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+97142223498" class="btn_trans">
+                            <i><img src="./images/phone.svg"/></i>
+                            <span>+971 4 222 3498</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+971565704704" class="btn_trans">
+                            <i><img src="./images/whatsapp.svg"/></i>
+                            <span>+971 56 570 4704</span>
+                        </a>
+                    </li>
+                    <li class="res_mob">
+                        <button id="menuToggler" class="toggler_">
+                            <span></span>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="nav_list full_res_view">
+                    <li>
+                        <a href="#home" data-hash="#home" class="nav_link">Home</a>
+                    </li>
+                    <li><a href="#about" data-hash="#about" class="nav_link">About Us</a> </li>
+                    <li><a href="#services" data-hash="#services" class="nav_link">Our Services</a> </li>
+                    <li> <a href="#associates" data-hash="#associates" class="nav_link">Our Associates</a> </li>
+                    <li><a href="#testimonials" data-hash="#testimonials" class="nav_link">Testimonials</a> </li>
+                    <li><a href="#contact" data-hash="#contact" class="nav_link">Contact Us</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>    <ul class="social_media">
+        <li>
+            <a href="#" target="_blank">
+                <img src="./images/facebook.svg" alt="Facebook"/>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <img src="./images/instagram.svg" alt="Instagram"/>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <img src="./images/twitter.svg" alt="Twitter"/>
+            </a>
+        </li>
+    </ul>    <section class="banner_section" id="home">
+        <div class="banner_container">
+            <div class="video_bg">
+                <video id="background_video" loop="" muted="" autoplay="" playsinline="">
+                    <source src="./video/banner.mp4" type="video/mp4">
+                </video>
+            </div>
+    
+            <div class="banner_bg">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 viewBox="0 0 311.4 353.2" enable-background="new 0 0 311.4 353.2" xml:space="preserve">
+    <g>
+    	
+    		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="333.3306" y1="359.4893" x2="-0.2194" y2="66.4393" gradientTransform="matrix(1 0 0 -1 0 478)">
+    		<stop  offset="0" style="stop-color:#EC2A90"/>
+    		<stop  offset="6.000000e-02" style="stop-color:#D73597"/>
+    		<stop  offset="0.18" style="stop-color:#9F53A9"/>
+    		<stop  offset="0.34" style="stop-color:#4882C5"/>
+    		<stop  offset="0.47" style="stop-color:#00A8DC"/>
+    		<stop  offset="0.77" style="stop-color:#FDD301"/>
+    		<stop  offset="1" style="stop-color:#EC1E29"/>
+    	</linearGradient>
+    	<polygon fill="url(#SVGID_1_)" points="141.8,323 48.4,253.2 0,277.3 152.6,353.2 305.2,277.3 302.9,276.2 	"/>
+    	
+    		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="309.6202" y1="386.4698" x2="-23.9198" y2="93.4198" gradientTransform="matrix(1 0 0 -1 0 478)">
+    		<stop  offset="0" style="stop-color:#EC2A90"/>
+    		<stop  offset="6.000000e-02" style="stop-color:#D73597"/>
+    		<stop  offset="0.18" style="stop-color:#9F53A9"/>
+    		<stop  offset="0.34" style="stop-color:#4882C5"/>
+    		<stop  offset="0.47" style="stop-color:#00A8DC"/>
+    		<stop  offset="0.77" style="stop-color:#FDD301"/>
+    		<stop  offset="1" style="stop-color:#EC1E29"/>
+    	</linearGradient>
+    	<polygon fill="url(#SVGID_2_)" points="137.1,259.1 74.1,161 20.3,166.6 136.6,291.2 306.1,273.7 304.4,271.9 	"/>
+    	
+    		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="298.0194" y1="399.6807" x2="-35.5305" y2="106.6306" gradientTransform="matrix(1 0 0 -1 0 478)">
+    		<stop  offset="0" style="stop-color:#EC2A90"/>
+    		<stop  offset="6.000000e-02" style="stop-color:#D73597"/>
+    		<stop  offset="0.18" style="stop-color:#9F53A9"/>
+    		<stop  offset="0.34" style="stop-color:#4882C5"/>
+    		<stop  offset="0.47" style="stop-color:#00A8DC"/>
+    		<stop  offset="0.77" style="stop-color:#FDD301"/>
+    		<stop  offset="1" style="stop-color:#EC1E29"/>
+    	</linearGradient>
+    	<polygon fill="url(#SVGID_3_)" points="155.1,197.7 130.5,83.7 78.3,70.1 143.4,227.6 308.3,270.6 307.3,268.3 	"/>
+    	
+    		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="299.9922" y1="397.4375" x2="-33.5407" y2="104.3925" gradientTransform="matrix(1 0 0 -1 0 478)">
+    		<stop  offset="0" style="stop-color:#EC2A90"/>
+    		<stop  offset="6.000000e-02" style="stop-color:#D73597"/>
+    		<stop  offset="0.18" style="stop-color:#9F53A9"/>
+    		<stop  offset="0.34" style="stop-color:#4882C5"/>
+    		<stop  offset="0.47" style="stop-color:#00A8DC"/>
+    		<stop  offset="0.77" style="stop-color:#FDD301"/>
+    		<stop  offset="1" style="stop-color:#EC1E29"/>
+    	</linearGradient>
+    	<polygon fill="url(#SVGID_4_)" points="305.7,98.2 166.4,0 172.1,170.3 311.4,268.5 	"/>
+    	<path opacity="0.2" fill="#221F1F" enable-background="new    " d="M166.4,0c0,0,36.3,36.3,68.8,131c33,96,76.2,137.6,76.2,137.6
+    		l-139.3-98.2L166.4,0z"/>
+    </g>
+    </svg>
+            </div>
+    
+            <div class="banner_content">
+                <h1>
+                    <span>Sanabel Documents</span>
+                    <span>Clearing Services</span>
+                </h1>
+    
+                <div class="line_"></div>
+    
+                <p>UAE’s best business setup and document cleaning services, Check out
+                    <br> more about our services.</p>
+    
+                <div class="banner_button_group">
+                    <a href="#about" class="btn_primary"><span>Read More</span></a>
+                    <a href="#about" class="btn_outline"><span>Chat With Us</span></a>
+                </div>
+            </div>
+    
+        </div>
+    </section>    <section class="in_section" id="about">
+        <div class="container">
+            <div class="about_wrapper">
+    
+                <div class="item_">
+                    <div class="image_box">
+                        <picture>
+                            <source srcset="./images/about-image.png" />
+                            <img src="./images/about-image.png" alt="SDCS About Us" loading="lazy"/>
+                        </picture>
+                    </div>
+                </div>
+    
+                <div class="item_ flex_">
+                  <div class="inner_">
+                    <div class="title_wrapper">
+                        <h2><span>About Us</span></h2>
+                    </div>
+                    <div class="text_area">
+                        <p class="sub_">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius orci quis sem elementum feugiat. Donec non eros mi. Nullam non ullamcorper arcu. Nunc ac turpis sem. Nam efficitur diam ligula. Donec vitae orci justo. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius orci quis sem elementum feugiat. Donec non eros mi. Nullam non ullamcorper arcu. Nunc ac turpis sem. Nam efficitur diam ligula. Donec vitae orci justo. Aliquam nec est ipsum. Nullam erat ex, blandit id eros quis, dignissim tristique augue. Nam elit nunc, placerat nec urna quis, malesuada aliquam est. Maecenas malesuada nunc id erat pellentesque suscipit. Donec sodales malesuada enim vitae imperdiet. Vestibulum malesuada nec elit nec euismod. Sed at suscipit ex. Aenean molestie mauris et tristique congue. Cras congue eleifend ornare.</p>
+                    </div>
+                  </div>
+    
+                  <div class="about_widget">
+                    <div class="list_ plus_">
+                        <strong>5000</strong>
+                        <label>Happy customers</label>
+                    </div>
+                    <div class="list_">
+                        <strong>22</strong>
+                        <label>Services </label>
+                    </div>
+                    <div class="list_ plus_">
+                        <strong>30</strong>
+                        <label>partners</label>
+                    </div>
+                  </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>    <section class="in_section" id="services">
+    
+        <div class="bg_">
+            <picture>
+                <source srcset="./images/services-bg.png" />
+                <img src="./images/services-bg.png" loading="lazy" alt="Services SDCS" />
+            </picture>
+        </div>
+    
+        <div class="container">
+            <div class="title_wrapper white_">
+                <h2><span>Our Services</span></h2>
+    
+                <div class="swiper_nav" data-s-nav="services">
+                    <button class="prev_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.464" height="39.707" viewBox="0 0 38.464 39.707">
+                            <g id="prev" transform="translate(1.5 2.121)">
+                              <rect id="Area" width="35" height="35" transform="translate(0.464 0)" fill="#fcfcfc" opacity="0"/>
+                              <g id="Icon" transform="translate(0 0)">
+                                <line id="c10c7a6f-d55e-4860-a4af-cc8799cc38e2" x1="35" transform="translate(0.464 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="caa8ae0b-72f7-441d-83c9-e60ed51d84a2" d="M34.875,7.143,17.143,24.875,34.875,42.607" transform="translate(-17.143 -7.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </g>
+                          </svg>
+                          
+                    </button>
+    
+                    <button class="next_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.464" height="39.706" viewBox="0 0 38.464 39.706">
+                            <g id="next" transform="translate(1.5 2.121)">
+                              <rect id="Area" width="35" height="35" fill="#fcfcfc" opacity="0"/>
+                              <g id="Icon" transform="translate(0 0)">
+                                <line id="c10c7a6f-d55e-4860-a4af-cc8799cc38e2" x2="35" transform="translate(0 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="caa8ae0b-72f7-441d-83c9-e60ed51d84a2" d="M17.143,7.143,34.875,24.875,17.143,42.607" transform="translate(0.589 -7.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="services_wrapper">
+                <div class="swiper_">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <a href="#" data-nd-modal="service1" class="link_">
+                                <div class="image_box">
+                                    <picture>
+                                        <source srcset="./images/services_1.png" />
+                                        <img src="./images/services_1.png" loading="lazy" alt="Services SDCS" />
+                                    </picture>
+                                </div>
+                                <p>Business Setup</p> 
+                            </a>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <a href="#" data-nd-modal="service1" class="link_">
+                                <div class="image_box">
+                                    <picture>
+                                        <source srcset="./images/services_2.png" />
+                                        <img src="./images/services_2.png" loading="lazy" alt="Services SDCS" />
+                                    </picture>
+                                </div>
+                                <p>Family Visa</p>
+                            </a>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <a href="#" data-nd-modal="service1" class="link_">
+                                <div class="image_box">
+                                    <picture>
+                                        <source srcset="./images/services_3.png" />
+                                        <img src="./images/services_3.png" loading="lazy" alt="Services SDCS" />
+                                    </picture>
+                                </div>
+                                <p>Pro Services </p>
+                            </a>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <a href="#" data-nd-modal="service1" class="link_">
+                                <div class="image_box">
+                                    <picture>
+                                        <source srcset="./images/services_4.png" />
+                                        <img src="./images/services_4.png" loading="lazy" alt="Services SDCS" />
+                                    </picture>
+                                </div>
+                                <p>Website Design & Development </p>
+                            </a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="service_modal" id="service1">
+        <div class="inner_">
+            <h1>Test</h1>
+        </div>
+    </div>    <section class="in_section" id="associates">
+        <div class="container">
+            <div class="title_wrapper">
+                <h2><span>Our Associates</span></h2>
+    
+                <div class="swiper_nav dark_" data-s-nav="associates">
+                    <button class="prev_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.464" height="39.707" viewBox="0 0 38.464 39.707">
+                            <g id="prev" transform="translate(1.5 2.121)">
+                              <rect id="Area" width="35" height="35" transform="translate(0.464 0)" fill="#fcfcfc" opacity="0"/>
+                              <g id="Icon" transform="translate(0 0)">
+                                <line id="c10c7a6f-d55e-4860-a4af-cc8799cc38e2" x1="35" transform="translate(0.464 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="caa8ae0b-72f7-441d-83c9-e60ed51d84a2" d="M34.875,7.143,17.143,24.875,34.875,42.607" transform="translate(-17.143 -7.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </g>
+                          </svg>
+                          
+                    </button>
+    
+                    <button class="next_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.464" height="39.706" viewBox="0 0 38.464 39.706">
+                            <g id="next" transform="translate(1.5 2.121)">
+                              <rect id="Area" width="35" height="35" fill="#fcfcfc" opacity="0"/>
+                              <g id="Icon" transform="translate(0 0)">
+                                <line id="c10c7a6f-d55e-4860-a4af-cc8799cc38e2" x2="35" transform="translate(0 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="caa8ae0b-72f7-441d-83c9-e60ed51d84a2" d="M17.143,7.143,34.875,24.875,17.143,42.607" transform="translate(0.589 -7.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="associates_wrapper">
+                <div class="swiper_">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <a href="#" class="link_">
+                                <picture>
+                                    <source srcset="./images/a-1.png" />
+                                    <img src="./images/a-1.png" loading="lazy" alt="Services SDCS" />
+                                </picture>
+                            </a>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <a href="#" class="link_">
+                                <picture>
+                                    <source srcset="./images/a-2.png" />
+                                    <img src="./images/a-2.png" loading="lazy" alt="Services SDCS" />
+                                </picture>
+                            </a>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <a href="#" class="link_">
+                                <picture>
+                                    <source srcset="./images/a-3.png" />
+                                    <img src="./images/a-3.png" loading="lazy" alt="Services SDCS" />
+                                </picture>
+                            </a>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <a href="#" class="link_">
+                                <picture>
+                                    <source srcset="./images/a-4.png" />
+                                    <img src="./images/a-4.png" loading="lazy" alt="Services SDCS" />
+                                </picture>
+                            </a>
+                        </div>
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <section class="in_section" id="testimonials">
+    
+        <div class="bg_ blue_"></div>
+    
+        <div class="container">
+    
+            <div class="title_wrapper white_">
+                <h2><span>Testimonials</span></h2>
+    
+                <div class="swiper_nav" data-s-nav="testimonail">
+                    <button class="prev_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.464" height="39.707" viewBox="0 0 38.464 39.707">
+                            <g id="prev" transform="translate(1.5 2.121)">
+                              <rect id="Area" width="35" height="35" transform="translate(0.464 0)" fill="#fcfcfc" opacity="0"/>
+                              <g id="Icon" transform="translate(0 0)">
+                                <line id="c10c7a6f-d55e-4860-a4af-cc8799cc38e2" x1="35" transform="translate(0.464 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="caa8ae0b-72f7-441d-83c9-e60ed51d84a2" d="M34.875,7.143,17.143,24.875,34.875,42.607" transform="translate(-17.143 -7.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </g>
+                          </svg>
+                          
+                    </button>
+    
+                    <button class="next_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.464" height="39.706" viewBox="0 0 38.464 39.706">
+                            <g id="next" transform="translate(1.5 2.121)">
+                              <rect id="Area" width="35" height="35" fill="#fcfcfc" opacity="0"/>
+                              <g id="Icon" transform="translate(0 0)">
+                                <line id="c10c7a6f-d55e-4860-a4af-cc8799cc38e2" x2="35" transform="translate(0 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="caa8ae0b-72f7-441d-83c9-e60ed51d84a2" d="M17.143,7.143,34.875,24.875,17.143,42.607" transform="translate(0.589 -7.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="testimonial_wrapper">
+                <div class="swiper_">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="item_">
+                                <div class="top_">
+                                    <div class="image_">
+                                        <picture>
+                                            <source srcset="./images/t-1.png" />
+                                            <img src="./images/t-1.png" loading="lazy" alt="Services SDCS" />
+                                        </picture>
+                                    </div>
+                                    <div class="title_">
+                                        <h4>Name here..</h4>
+                                        <label>Designation here….</label>
+                                    </div>
+                                </div>
+    
+                                <div class="bottom_">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius orci quis sem elementum feugiat. Donec non eros mi. Nullam non ullamcorper arcu. Nunc ac turpis sem. Nam efficitur diam ligula. Donec vitae orci justo. Aliquam nec est ipsum. Nullam erat ex, blandit id eros quis, </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="item_">
+                                <div class="top_">
+                                    <div class="image_">
+                                        <picture>
+                                            <source srcset="./images/t-2.png" />
+                                            <img src="./images/t-2.png" loading="lazy" alt="Services SDCS" />
+                                        </picture>
+                                    </div>
+                                    <div class="title_">
+                                        <h4>Name here..</h4>
+                                        <label>Designation here….</label>
+                                    </div>
+                                </div>
+    
+                                <div class="bottom_">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius orci quis sem elementum feugiat. Donec non eros mi. Nullam non ullamcorper arcu. Nunc ac turpis sem. Nam efficitur diam ligula. Donec vitae orci justo. Aliquam nec est ipsum. Nullam erat ex, blandit id eros quis, </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="item_">
+                                <div class="top_">
+                                    <div class="image_">
+                                        <picture>
+                                            <source srcset="./images/t-1.png" />
+                                            <img src="./images/t-1.png" loading="lazy" alt="Services SDCS" />
+                                        </picture>
+                                    </div>
+                                    <div class="title_">
+                                        <h4>Name here..</h4>
+                                        <label>Designation here….</label>
+                                    </div>
+                                </div>
+    
+                                <div class="bottom_">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius orci quis sem elementum feugiat. Donec non eros mi. Nullam non ullamcorper arcu. Nunc ac turpis sem. Nam efficitur diam ligula. Donec vitae orci justo. Aliquam nec est ipsum. Nullam erat ex, blandit id eros quis, </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="item_">
+                                <div class="top_">
+                                    <div class="image_">
+                                        <picture>
+                                            <source srcset="./images/t-2.png" />
+                                            <img src="./images/t-2.png" loading="lazy" alt="Services SDCS" />
+                                        </picture>
+                                    </div>
+                                    <div class="title_">
+                                        <h4>Name here..</h4>
+                                        <label>Designation here….</label>
+                                    </div>
+                                </div>
+    
+                                <div class="bottom_">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius orci quis sem elementum feugiat. Donec non eros mi. Nullam non ullamcorper arcu. Nunc ac turpis sem. Nam efficitur diam ligula. Donec vitae orci justo. Aliquam nec est ipsum. Nullam erat ex, blandit id eros quis, </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+           
+        </div>
+    </section>    <section class="in_section no_padding" id="contact">
+        <div class="contact_map">
+            <div class="map_">
+                <picture>
+                    <source srcset="./images/contact-bg.png" />
+                    <img src="./images/contact-bg.png" loading="lazy" alt="Services SDCS" />
+                </picture>
+    
+                <div class="marker_">
+                    <img src="./images/c-pin-white.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="contact_container">
+            <div class="container">
+                <div class="contact_info">
+                    <div class="info_">
+                        <div class="title_wrapper">
+                            <h2><span>Contact Us</span></h2>
+                        </div>
+                        <ul class="address_">
+                            <li>
+                                <div class="icon_">
+                                    <img src="./images/c-pin.svg" />
+                                </div>
+                                <p>Office No. 206, <br/> 
+                                    Alphamed Building, <br/>
+                                    Abu hail, Dubai</p>
+                            </li>
+    
+                            <li>
+                                <div class="icon_">
+                                    <img src="./images/c-phone.svg" />
+                                </div>
+                                <p>+971 4 222 3498 <br/> +971 55 159 0712</p>
+                            </li>
+    
+                            <li>
+                                <div class="icon_">
+                                    <img src="./images/c-mail.svg" />
+                                </div>
+                                <p>info@sdcsdubai.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chat_box">
+                        <div class="title_">
+                            <div class="icon_">
+                                <img src="./images/chat.svg" />
+                            </div>
+                            <p>Chat with us for more details.</p>
+                        </div>
+    
+                        <a href="#about" class="btn_outline"><span>Chat With Us</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <footer>
+    
+        <div class="container">
+            <div class="footer_inner">
+                <p>Copyright © 2022 SDCS. All rights reserved</p>
+            </div>
+        </div>
+    
+    </footer>
+    
+    <a href="https://wa.me/+971565704704" target="_blank" class="whatsapp_logo">
+        <img src="./images/wp-color.svg"/>
+    </a>
+    
+  </body>
+</html> 
