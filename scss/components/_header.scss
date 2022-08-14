@@ -45,6 +45,14 @@ header{
                 display: block;
                 width: auto;
                 height: 100%;
+
+                &.scrl_{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    transition: all 0.3s ease;
+                }
             }
         }
     }
@@ -245,12 +253,50 @@ body{
                 }
             }
         }
+
+        &.scrolled_{
+            .navbar_{
+                .nav_list{
+                    @media only screen and (max-width:1200px){
+                        &:not(.full_res_view){
+                            li{
+
+                                .btn_trans{
+                                    &:before{
+                                        background-color: var(--white-color);
+                                    }
+                                }
+
+                                .toggler_{
+                                    span{
+                                        background-color: var(--white-color);
+
+                                       
+                                        
+                                        &:before, &:after{
+                                            background-color: var(--white-color);
+                                        }
+                                    }
+
+                                    &.active_{
+                                        span{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     &.scrolled_{
         header{
             height: 90px;
-            background-color: var(--text-color);
+            background-color: var(--white-color);
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
 
             @media only screen and (max-width:1200px){
                 height: 80px;
@@ -268,6 +314,76 @@ body{
                             transform: translateY(-100%);
                         }
                         
+                    }
+                }
+            }
+
+            .nav_logo{
+                .nav_logo_link{
+                    img{
+                        &:not(.scrl_){
+                            opacity: 0;
+                        }
+                        &.scrl_{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            @media only screen and (min-width:1200px){
+                .navbar_{
+                    .nav_list{
+                        &.full_res_view{
+                            li{
+                                .nav_link{
+                                    color: var(--text-color);
+                                }
+                            }
+                        }
+
+                        &:not(.full_res_view){
+                            li{
+                                .btn_trans{
+                                    &:before{
+                                        background-color: var(--text-color);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media only screen and (max-width:1200px){
+                .navbar_{
+                    .nav_list{
+                        &:not(.full_res_view){
+                            li{
+                                .btn_trans{
+                                    &:before{
+                                        background-color: var(--text-color);
+                                    }
+                                }
+
+                                .toggler_{
+                                    span{
+                                        background-color: var(--text-color);
+
+                                       
+                                        
+                                        &:before, &:after{
+                                            background-color: var(--text-color);
+                                        }
+                                    }
+                                    &.active_{
+                                        span{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

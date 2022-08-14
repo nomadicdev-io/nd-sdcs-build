@@ -842,6 +842,8 @@
                         margin: 0;
                         margin-inline-start: 1em;
                         font-size: calc(var(--font-size) * 1.25);
+                        text-decoration: none;
+                        color: var(--text-color);
                     }
 
                     @for $i from 1 to 6 {
