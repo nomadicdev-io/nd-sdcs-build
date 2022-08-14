@@ -1003,9 +1003,11 @@
                 }
             }
 
+           @media only screen and (max-width:767px){
             .btn_outline{
                 width: 100%;
             }
+           }
         }
     }
 }
