@@ -169,6 +169,7 @@ header{
                     text-transform: uppercase;
                     transition: color 0.3s ease;
 
+                   
                     &:before{
                         content: '';
                         position: absolute;
@@ -180,10 +181,18 @@ header{
                         width: 100%;
                         height: 2px;
                         transform: scaleX(0);
+                        @media only screen and (max-width:1200px){
+                            background-color: var(--white-color);
+                        }
+    
                     }
 
                     &:hover{
                         color: var(--primary-color);
+                        @media only screen and (max-width:1200px){
+                            color: var(--white-color);
+                        }
+    
                         
                         &:before{
                             transform: scaleX(1);
@@ -194,9 +203,14 @@ header{
                 &.active_{
                     .nav_link{
                         color: var(--primary-color);
+                        @media only screen and (max-width:1200px){
+                            color: var(--white-color);
+                        }
+    
                         
                         &:before{
                             transform: scaleX(1);
+                            
                         }
                     }
                 }
