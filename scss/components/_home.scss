@@ -424,6 +424,9 @@
         width: 100%;
         text-decoration: none;
         overflow: hidden;
+        transition: all 0.3s ease;
+
+
         .image_box{
             position: relative;
             display: block;
@@ -444,6 +447,7 @@
                 height: 100%;
                 background-color: #14274B;
                 opacity: 0.23;
+                transition: all 0.3s ease;
             }
 
             picture{
@@ -477,15 +481,22 @@
             transform: translateY(105%);
             transition: all 0.8s var(--ease);
             opacity: 0;
+
+            @media only screen and (max-width:767px){
+                font-size: calc(var(--font-size) * 2.2);
+            }
+
         }
 
         &:hover{
+            transform: scale(1.1);
             .image_box{
-                picture{
-                    img{
-                        transform: scale(1.2) rotate(10deg);
-                    }
+                
+                &:after{
+                    opacity: 0;
                 }
+
+                
             }
         }
     }
